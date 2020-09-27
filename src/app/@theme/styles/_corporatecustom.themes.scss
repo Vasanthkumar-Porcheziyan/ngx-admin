@@ -2,13 +2,13 @@
 
 @mixin corporate_custom() {
     .nb-theme-corporate nb-card nb-list::-webkit-scrollbar {
-        width: .3125rem;
-        height: .3125rem;
+        width: 0.3125rem;
+        height: 0.3125rem;
     }
     .nb-theme-corporate nb-card nb-list::-webkit-scrollbar-thumb {
         background: #e4e9f2;
         cursor: pointer;
-        border-radius: .15625rem;
+        border-radius: 0.15625rem;
     }
     .nb-theme-corporate nb-card nb-list::-webkit-scrollbar-track {
         background: #f7f9fc;
