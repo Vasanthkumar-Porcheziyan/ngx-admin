@@ -1,0 +1,19 @@
+@import './themes';
+/**
+* custom code for default themes
+*/
+
+@mixin default_custom() {
+    .nb-theme-default nb-card nb-list::-webkit-scrollbar-track {
+        background: #f7f9fc;
+    }
+    .nb-theme-default nb-card nb-list::-webkit-scrollbar-thumb {
+        background: #e4e9f2;
+        cursor: pointer;
+        border-radius: .15625rem;
+    }
+    .nb-theme-default nb-card nb-list::-webkit-scrollbar {
+        width: .3125rem;
+        height: .3125rem;
+    }
+}

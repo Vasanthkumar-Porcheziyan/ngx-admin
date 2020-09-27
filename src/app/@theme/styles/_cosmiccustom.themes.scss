@@ -1,0 +1,16 @@
+@import './themes';
+
+@mixin cosmic_custom() {
+    .nb-theme-cosmic nb-card nb-list::-webkit-scrollbar {
+        width: .3125rem;
+        height: .3125rem;
+    }
+    .nb-theme-cosmic nb-card nb-list::-webkit-scrollbar-thumb {
+        background: #13132b;
+        cursor: pointer;
+        border-radius: .15625rem;
+    }
+    .nb-theme-cosmic nb-card nb-list::-webkit-scrollbar-track {
+        background: #252547;
+    }
+}
