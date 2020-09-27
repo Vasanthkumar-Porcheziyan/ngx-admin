@@ -43,5 +43,5 @@
    @include cosmic_custom();
    @include corporate_custom();
    // load common custom styles for all the themes
-   @include Custom_Themes();
+   @include custom_themes();
 };

@@ -1,8 +1,9 @@
+@import './themes';
 /**
     page to create customized style for the themes
 */
 
-@mixin Custom_Themes() {
+@mixin custom_themes() {
     nb-list {
         height: 100%;
     }
