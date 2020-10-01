@@ -18,6 +18,12 @@
 @import './layout';
 @import './overrides';
 
+@import './custom.theme';
+@import './defaultcustom.themes';
+@import './darkcustom.themes';
+@import './cosmiccustom.themes';
+@import './corporatecustom.themes';
+
 // install the framework and custom global styles
 @include nb-install() {
 
@@ -30,4 +36,12 @@
   @include ngx-pace-theme();
 
   @include nb-overrides();
+
+   // load custom style for the themes
+   @include default_custom();
+   @include dark_custom();
+   @include cosmic_custom();
+   @include corporate_custom();
+   // load common custom styles for all the themes
+   @include custom_themes();
 };
